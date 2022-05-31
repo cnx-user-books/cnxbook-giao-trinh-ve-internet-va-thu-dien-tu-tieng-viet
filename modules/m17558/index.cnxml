@@ -1,0 +1,169 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Các khái niệm cơ bản của Internet</title>
+  <metadata>
+  <md:content-id>m17558</md:content-id><md:title>Các khái niệm cơ bản của Internet</md:title>
+  <md:abstract>Phần này trình bày về lịch sử ra đời của Internet, các thuật ngữ thông dụng trên Internet…</md:abstract>
+  <md:uuid>da5a8574-7060-4964-8568-86b1e5bdc706</md:uuid>
+</metadata>
+  <content>
+    <section id="id8098086">
+      <title>Internet là gì, phân biệt với World Wide Web</title>
+      <section id="id8098094">
+        <title>Lịch sử ra đời của Internet - Một số mốc đáng chú ý</title>
+        <list id="id8098103" list-type="bulleted">
+          <item>Năm 1969, mạng ARPAnet của bộ Quốc phòng Mỹ được thành lập. (ARPA là viết tắt của từ <foreign>Advanced Research Projects Agency - Cơ quan các dự án nghiên cứu cao cấp</foreign>, net là mạng ) với mục tiêu là:<list id="id8098139" list-type="bulleted"><item>Là một <link url="Senior Systems Engineer 0908.pdf">mạng máy tính </link>có khả năng chịu đựng các sự cố (ví dụ một số nút mạng bị tấn công và phá huỷ nhưng mạng vẫn tiếp tục hoạt động). </item><item>Mạng cho phép một máy tính bất kỳ trên mạng liên lạc với mọi máy tính khác.</item></list></item>
+          <item>Năm 1982, bộ giao thức TCP/IP được thành lập (<foreign>TCP/IP=Transmission Control Protocol/ Internet Protocol</foreign>). Đây là giao thức giúp cho các máy có thể dễ dàng truyền thông với nhau và cũng chính là giao thức chuẩn trên Internet cho đến ngày nay.</item>
+          <item>Năm 1983, ARPAnet sử dụng bộ giao thức TCP/IP và sau đó, Tổ chức Khoa học Quốc gia của Mỹ (National Science Foundation - NSF) tài trợ cho việc xây dựng NSFnet thay thế cho ARPAnet.</item>
+          <item>Năm 1986 NSFnet liên kết 60 đại học Mỹ và 3 đại học châu Âu. Điểm quan trọng của NSFnet là nó cho phép mọi người cùng sử dụng</item>
+          <item>Năm 1991, tại trung tâm nghiên cứu nguyên tử Châu Âu CERN, Tim Berners Lee triển khai thành công dịch vụ World Wide Web (WWW). Chính nhờ dịch vụ này mà người sử dụng tìm thấy ở mạng máy tính toàn cầu có nhiều điều hấp dẫn.</item>
+          <item>Năm 1993 NSF lập InterNIC cung cấp nhiều dịch vụ mới, khái niệm Internet, mạng thông tin toàn cầu được hình thành.</item>
+          <item>Ngày nay Internet thực sự là mạng máy tính của toàn cầu với việc cho phép mỗi người đều tìm thấy ở đó dịch vụ mà mình cần đến </item>
+          <item>Tháng 12 năm 1997, Việt Nam chính thức tham gia kết nối vào mạng lưới toàn cầu Internet. </item>
+        </list>
+      </section>
+      <section id="id8098251">
+        <title>World Wide Web (WWW) và Internet khác nhau như thế nào?</title>
+        <list id="id8098259" list-type="bulleted">
+          <item>WWW là một dịch vụ triển khai trên Internet. Người ta thường nói WWW là dịch vụ trang tin toàn cầu. Như vậy, WWW chỉ là một phần của Internet. </item>
+          <item>Internet bao hàm tất cả thiết bị cấu thành (phần cứng) và các dịch vụ triển khai trên đó (phần mềm) bao gồm dịch vụ trang tin toàn cầu (WWW), dịch vụ truyền tệp tin (File Transfer Protocol - FTP), dịch vụ thư tín điện tử (Email) và dịch vụ nhóm thông tin (Newsgroup). </item>
+          <item>WWW bao gồm các trang thông tin có ký tự, hình ảnh và các hiệu ứng...mà bạn có thể xem bằng các trình duyệt web (Web browser), ví dụ như Microsoft Internet Explorer (IE) hoặc Netscape Navigator.</item>
+        </list>
+      </section>
+    </section>
+    <section id="id8098330">
+      <title>Các thuật ngữ HTTP, URL, Hyperlink, ISP, FTP</title>
+      <section id="id8098338">
+        <title>HTTP (HyperText Transfer Protocol)</title>
+        <list id="id8098345" list-type="bulleted">
+          <item>HTTP là viết tắt của HyperText Transfer Protocol, giao thức truyền tệp tin siêu văn bản. Trình duyệt web sử dụng giao thức này để truy xuất và tải về các trang thông tin và các hình ảnh từ máy chủ. Chính vì vậy mà bạn có thể thấy ở ở tiêu đề địa chỉ trang thông tin nào cũng mở đầu bằng http.</item>
+          <item>Ví dụ, bạn có thể sử dụng trình duyệt web truy xuất vào trang thông tin của Đại học Quốc gia Hà Nội bằng cách gõ vào ô địa chỉ <link url="http://www.vnu.edu.vn/">http://www.vnu.edu.vn</link>.</item>
+        </list>
+      </section>
+      <section id="id8098386">
+        <title>URL (Uniform Resource Locator)</title>
+        <list id="id8098392" list-type="bulleted">
+          <item>URL (Uniform Resource Locator), bộ định vị tài nguyên thống nhất. Cấu trúc của URL bao gồm: Tên của giao thức (thường là HTTP hoặc FTP), sau đó là địa chỉ của máy tính mà bạn muốn kết nối đến, rồi đến vị trí của tài nguyên cần truy xuất.</item>
+          <item>Ví dụ về một URL là “fpt://ftp.vnu.edu.vn/ebooks/” sẽ hướng dẫn trình duyệt web của bạn sử dụng giao thức giao thức FTP để kết nối đến máy chủ của Đại học Quốc gia, vào thư mục ebooks (sách điện tử) để có thể tải về các tài liệu.</item>
+        </list>
+      </section>
+      <section id="id8098427">
+        <title>Siêu liên kết (Hyperlink)</title>
+        <list id="id8098434" list-type="bulleted">
+          <item>Hyperlink, siêu liên kết, là một phần văn bản (hay hình ảnh) của trang Web, mà khi bạn nhấn chuột vào đó sẽ tự động thực hiện một trong các thao tác sau đây:</item>
+        </list>
+        <list id="id8098452" list-type="bulleted">
+          <item>Đưa bạn đến phần khác của trang;</item>
+          <item>Đưa bạn đến một trang web khác trong cùng một website;</item>
+          <item>Đưa bạn đến một trang web khác trong website khác;</item>
+          <item>Cho phép bạn tải về (download) một tệp tin;</item>
+          <item>Chạy một ứng dụng, trình diễn một đoạn video hoặc âm thanh.</item>
+        </list>
+        <list id="id8098518" list-type="bulleted">
+          <item>Để nhận ra đâu là siêu liên kết, đâu là các dòng văn bản có màu hoặc có gạch chân, bạn nên đưa chuột đến khu vực đó. Thông thường, con trỏ chuột sẽ biến thành hình bàn tay (hình minh hoạ) hoặc ở thanh trạng thái (status bar) phía dưới sẽ hiện ra đích đến (target) nếu như bạn đang trỏ chuột đúng vào siêu liên kết.</item>
+        </list>
+        <figure id="id8098543">
+          <media id="id42389978" alt=""><image src="../../media/graphics1-9fd4.png" mime-type="image/png" height="29" width="29"/></media>
+        </figure>
+        <para id="id8098565">Hình: Biểu tượng con trỏ chuột tại siêu liên kết</para>
+        <list id="id8098575" list-type="bulleted">
+          <item>Hình ảnh minh hoạ dưới đây là một phần của trang web của <foreign>Trung tâm Đào tạo và sát hạch, Viện Công nghệ Thông tin, ĐHQG Hà Nội</foreign>. Những dòng chữ có gạch dưới chính là các siêu liên kết. Theo mặc định thì các ký tự trong siêu liên kết đó có màu xanh dương.</item>
+        </list>
+        <figure id="id8098602"><media id="id43337340" alt=""><image src="../../media/graphics2-21ab.png" mime-type="image/png" height="183" width="358"/></media><caption>Chuột đang trỏ vào siêu liên kết, thanh trạng thái hiển thị đích đến</caption></figure>
+        
+      </section>
+      <section id="id8098638">
+        <title>ISP (Internet Service Provider)</title>
+        <list id="id8098644" list-type="bulleted">
+          <item>ISP, nhà cung cấp dịch vụ Internet, là nơi bạn đăng ký thuê bao hoặc đăng ký sử dụng nếu muốn có quyền truy xuất dịch vụ Internet. ISP sẽ giúp bạn kết nối với Internet thông qua đường dây điện thoại hoặc đường dây thuê bao số tốc độ cao. Ở Việt Nam, danh sách các ISP có thể kể đến như VDC, FPT, Vietel, Netnam...</item>
+        </list>
+      </section>
+      <section id="id3770974">
+        <title>FTP (File Transfer Protocol)</title>
+        <list id="id3770980" list-type="bulleted">
+          <item>FTP, giao thức truyền tệp tin, là cách thức để truyền dữ liệu từ nơi này đến nơi khác qua mạng Internet. Giao thức này thường được sử dụng để tải về hoặc đưa lên Internet các tệp tin có dung lượng lớn. </item>
+          <item>Bạn có thể không cần quan tâm cách thực hiện của FTP mà trong hầu hết các trường hợp, chỉ cần nhấn chuột vào một liên kết cho phép tải về tệp tin trong trang web thì trình duyệt sẽ thực hiện các thao tác truyền FTP cho bạn. Điều bạn cần quan tâm là cần phải tải về tệp tin có tên là gì hoặc mình sẽ đặt tên mới cho tệp tin là gì và sẽ lưu trữ nó ở đâu trong máy của mình.</item>
+          <item>Các chương trình FTP thông dụng giúp bạn có thể nhập vào địa chỉ của máy chủ cần truy xuất tới, tên và mật khẩu đăng nhập (nếu có) và các giao diện để bạn có thể dễ dàng tải về hoặc đưa lên các tệp tin của mình, ví dụ chương trình Total Commander, WSFTP, CuteFTP...</item>
+        </list>
+      </section>
+    </section>
+    <section id="id3771037">
+      <title>Các thành phần và cấu trúc một địa chỉ trang Web.</title>
+      <section id="id3771049">
+        <title>Các Website và URL</title>
+        <list id="id3771060" list-type="bulleted">
+          <item>Website, khu vực chứa web, là nơi các trang web được lưu trên một máy chủ WWW và có thể được truy cập từ Internet. </item>
+          <item>Trong số các trang web thuộc website này, có một trang Homepage (trang chủ) là trang sẽ được máy chủ gọi ra đầu tiên khi người dùng truy cập vào vùng này. Từ trang chủ, người dùng sẽ đi theo các siêu liên kết để đi tới các trang web khác trong web site. </item>
+          <item>Mỗi website có một địa chỉ, bạn cần phải biết được địa chỉ này để có thể truy xuất tới được website đó. </item>
+          <item>Địa chỉ của một website được cho dưới dạng URL, ví dụ địa chỉ website của Trung tâm Đào tạo và Sát hạch, Viện Công nghệ Thông tin, Đại học Quốc gia Hà Nội: <link url="http://www.iti.vnu.edu.vn/icdl/">http://www.iti.vnu.edu.vn/icdl/</link>.</item>
+        </list>
+      </section>
+    </section>
+    <section id="id3771125">
+      <title>Trình duyệt web (Web browser) là gì? Công dụng của nó.</title>
+      <section id="id3771134">
+        <title>Trình duyệt web (Web browser) là gì?</title>
+        <list id="id3771142" list-type="bulleted">
+          <item>Trình duyệt web là phần mềm giúp bạn có thể xem được thông tin từ các website trên Internet. Có rất nhiều trình duyệt web khác nhau, ví dụ như trình duyệt web Internet Explorer (IE), Netscape Navigator/Communicator (Netscape), Opera, MyIE2, Mozilla FireBird, Avant... trong đó phổ biến hơn cả là phần mềm trình duyệt IE</item>
+          <item>Mỗi phần mềm trình duyệt đều có các phiên bản khác nhau, phiên bản mới nhất là phiên bản có nhiều tính năng hơn các phiên bản trước đó. Tuy nhiên, các chức năng sử dụng cơ bản của trình duyệt như lùi (back), tiến (forward), làm tươi (refresh)... đều giống nhau và người dùng chỉ cần biết sử dụng một loại trình duyệt là có thể rất dễ dàng học cách sử dụng các trình duyệt khác để có thể truy xuất và xem các thông tin trên Internet.</item>
+        </list>
+        <para id="id3771187">
+          <figure id="id3771190"><media id="id43337843" alt=""><image src="../../media/graphics3.jpg" mime-type="image/jpeg" height="79" width="175"/></media><caption>IE</caption></figure>
+          <figure id="id3771219"><media id="id43337884" alt=""><image src="../../media/graphics4.jpg" mime-type="image/jpeg" height="95" width="128"/></media><caption>Firefox</caption></figure>
+          <figure id="id3771249"><media id="id43337925" alt=""><image src="../../media/graphics5.jpg" mime-type="image/jpeg" height="76" width="147"/></media><caption>Opera</caption></figure>
+        </para>
+        
+      </section>
+    </section>
+    <section id="id3771291">
+      <title>Máy tìm kiếm (Search Engine) là gì? Công dụng của nó. </title>
+      <section id="id3771300">
+        <title>Máy tìm kiếm tìm kiếm là gì?</title>
+        <list id="id3771308" list-type="bulleted">
+          <item>Máy tìm kiếm là một hệ thống cho phép tìm kiếm các thông tin trên Internet theo yêu cầu của người dùng. Người dùng muốn tìm thông tin trên Internet chỉ cần truy xuất vào địa chỉ của máy tìm kiếm, gõ từ khóa hoặc nội dung cần tìm và đợi máy tìm kiếm trả về kết quả. Thông thường, màn hình làm việc mặc định của máy tìm kiếm chính là trang chủ của website chứa máy tìm kiếm đó.</item>
+          <item>Máy tìm kiếm có các chức năng lưu trữ thông tin về các website trên Internet. Nó chỉ bao gồm thông tin về các website được người dùng dẫn hướng cụ thể, hoặc các website mà nó tự tìm thấy. Chính vì vậy mà các máy tìm kiếm này không bao gồm thông tin của tất cả các website trên mạng. Có nhiều máy tìm kiếm của nhiều hãng khác nhau và kết quả trả về là khác nhau kể cả khi người dùng sử dụng cùng một từ khóa. </item>
+          <item>Các máy tìm kiếm nổi tiếng trên thế giới có thể kể đến <link url="http://www.google.com/">www.google.com</link>, <link url="http://www.altavista.com/">www.altavista.com</link>, <link url="http://www.teoma.com/">www.teoma.com</link>...</item>
+          <item>Hình minh họa là trang chủ của website tìm kiếm google. Bạn chỉ cần mở trình duyệt web, gõ vào ô địa chỉ <link url="http://www.google.com/">http://www.google.com</link> rồi nhập vào từ khóa hoặc thông tin cần tìm trong ô tìm kiếm (Ví dụ từ khóa “ADSL là” để tìm định nghĩa về ADSL, chú ý dấu ngoặc kép để chỉ đó là một cụm từ gần nhau) rồi nhấn chuột vào nút Google Search.</item>
+        </list>
+        <para id="id3771434">
+          <figure id="id3771512"><media id="id43338140" alt=""><image src="../../media/graphics6-6c2f.png" mime-type="image/png" height="248" width="358"/></media><caption>Trang chủ của máy tìm kiếm google, đang tìm với từ khoá “ADSL là”</caption></figure>
+        </para>
+        
+        <list id="id3771544" list-type="bulleted">
+          <item>Sau khi nhấn chuột vào nút <emphasis>Tìm kiếm với google</emphasis> trang dưới đây sẽ hiện ra:</item>
+        </list>
+        <figure id="id3771565"><media id="id43267224" alt=""><image src="../../media/graphics7-e2c5.png" mime-type="image/png" height="225" width="358"/></media><caption>Kết quả tìm được</caption></figure>
+        
+        <list id="id3771595" list-type="bulleted">
+          <item>Kết quả trả về là danh sách các website có chứa cụm từ bạn đang cần tìm. Mỗi kết quả bao gồm tiêu đề trang web có chứa cụm từ đó, nội dung tóm tắt của đoạn có chứa cụm từ đó trong website và địa chỉ liên kết tới trang có chứa từ đó. Đây là các thông tin cho phép bạn có thể đánh giá và sau đó quyết định nên đến trang này hay trang kia. Nhấn chuột vào tiêu đề các trang kết quả, bạn sẽ đến được với trang web mình cần.</item>
+        </list>
+      </section>
+    </section>
+    <section id="id3771616">
+      <title>Cookie là gì? Internet cache (bộ nhớ đệm) là gì?</title>
+      <section id="id3771624">
+        <title>Cookie là gì?</title>
+        <list id="id3771631" list-type="bulleted">
+          <item>Cookie là các thông tin lưu trong máy của bạn do các website bạn đã từng truy nhập ghi vào. Các thông tin này được lưu trong các file văn bản nhỏ, bao gồm các thông tin về quá trình truy xuất web của bạn hoặc các thông tin cá nhân mà bạn đã từng khai báo với trang web đó. </item>
+          <item>Ưu điểm của cookie là sau khi bạn đã đăng nhập vào một hệ thống nào đó, lần sau bạn sẽ không phải đăng nhập lại nữa, nếu bạn cho phép website đó sử dụng cookie để lưu trữ các thông tin này. Ngoài ra, một số trang web cho phép đưa bạn đến ngay trang mà bạn đang truy nhập dở dang từ lần trước nhờ đọc các thông tin trong cookie trong máy của bạn. Như vậy, cookie giúp bạn có thể truy xuất nhanh hơn, tiện dụng hơn, đúng theo các sở thích cá nhân hơn.</item>
+          <item>Nhược điểm của cookie là dễ bị lợi dụng. Người khác sử dụng máy của bạn hoàn toàn có thể đăng nhập hệ thống như vai trò của bạn. Chưa kể, các virút hoặc các chương trình lấy trộm thông tin sẽ dựa vào cookie để kiểm soát xem bạn đã từng đi đâu, làm gì và có những thông tin gì...</item>
+        </list>
+        <figure id="id3771691">
+          <media id="id43267409" alt=""><image src="../../media/graphics8-dbb7.png" mime-type="image/png" height="199" width="358"/></media>
+        </figure>
+        <para id="id7004497">Hình: Các tệp tin cookie trong máy tính</para>
+      </section>
+      <section id="id7004506">
+        <title>Internet cache là gì?</title>
+        <list id="id7004514" list-type="bulleted">
+          <item>Thông tin từ Internet về tới máy tính sẽ được lưu trữ tại một vùng trong ổ cứng máy tính của bạn, sau đó mới hiển thị ra màn hình. Vùng lưu trữ này gọi là vùng nhớ đệm thông tin trên Internet (Internet Cache). Do vậy, nếu đã từng mở một trang web nào đó ra rồi thì khi bạn quay lại website đó thì các thông tin sẽ được tải ngay từ vùng nhớ đệm này và chỉ cập nhật những phần thay đổi. </item>
+          <item>Ưu điểm của vùng nhớ đệm là tốc độ truy xuất rất nhanh (nếu bạn đã từng vào một trang, nhất là trang có nhiều ảnh và sau này có nhu cầu truy xuất lại) do không phải tải toàn bộ thông tin từ Internet. Vùng nhớ đệm còn giúp bạn có thể xem lại các thông tin mà bạn đã từng truy xuất nhờ kết hợp với các chức năng history (lịch sử) và work offline (làm việc không trực tuyến) sẽ nói ở phần sau.</item>
+          <item>Nhược điểm của vùng nhớ đệm là đôi khi khiến người dùng phải xem các thông tin đã cũ nếu không để ý các thông số ngày tháng. Để tránh điều này, bạn cần thỉnh thoảng sử dụng chức năng làm tươi (refresh, sẽ nói ở phần sau) để có thể luôn luôn lấy được những thông tin mới nhất từ phía máy chủ.</item>
+          <item>Ngoài ra, vùng nhớ đệm cũng là nơi trú chân của virút khi bắt đầu lây lan vào máy tính của bạn thông qua con đường Internet. Như vậy, bạn cần chú ý và quản lý vùng nhớ đệm thật tốt.</item>
+        </list>
+        <figure id="id7004584"><media id="id43267553" alt=""><image src="../../media/graphics9-120d.png" mime-type="image/png" height="210" width="358"/></media>
+<caption>Các tệp tin trong vùng nhớ đệm Internet Cache</caption></figure>
+        
+      </section>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,23 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>ICDL</title>
+  <metadata>
+  <md:content-id>m29833</md:content-id><md:title>ICDL</md:title>
+  <md:abstract>Chương trình tin học căn bản luyện thi chứng chỉ ICDL (International Computer Driving License).
+Chương trình gồm 7 module:
+1. Information System Concept
+2. Using Computer
+3. Word Processing
+4. Speadsheet
+5. Presentation
+6. Database
+7. Internet anf Email</md:abstract>
+  <md:uuid>474d2541-f06d-4c22-94ec-d8c4cfaceeef</md:uuid>
+</metadata>
+
+<content>
+    <para id="delete_me">
+       <!-- Insert module text here -->
+    </para>   
+  </content>
+  
+</document>
