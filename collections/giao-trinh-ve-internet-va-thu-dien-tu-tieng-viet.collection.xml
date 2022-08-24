@@ -1,3 +1,42 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xmlns:cnxml="http://cnx.rice.edu/cnxml" xml:lang="en">  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">  <md:content-id>col10807</md:content-id>  <md:title>Giao trinh ve Internet va thu dien tu tieng viet</md:title>      <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>  <md:language>vi</md:language>        <md:uuid>ba625463-8d67-46fb-8b37-ca35ea987081</md:uuid>
-<md:slug>giao-trinh-ve-internet-va-thu-dien-tu-tieng-viet</md:slug>
-</metadata>  <col:content>                        <col:subcollection>        <md:title>chuong I: tong quan ve Internet </md:title>                                <col:content>                    <col:module document="m17558">        <col:featured-links>                      <cnxml:link-group type="example">              <cnxml:link url="http://cnx.org/Members/minhdn/Season_2009_final_Vietnamese.pdf/download">Season 2009</cnxml:link>            </cnxml:link-group>                  </col:featured-links>      </col:module>                                          <col:subcollection>        <md:title>Cach su dung</md:title>                                <col:content>                    <col:module document="m30301"/>                          </col:content>      </col:subcollection>            </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>chuong II</md:title>                                <col:content>                                  <col:subcollection>        <md:title>muc 1  </md:title>                                <col:content>                    <col:module document="m29833"/>                          </col:content>      </col:subcollection>            </col:content>      </col:subcollection>      </col:content></col:collection>
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xmlns:cnxml="http://cnx.rice.edu/cnxml" xml:lang="en" authors="Nguy&#x1EC5;n Lan NHI">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10807</md:content-id>
+    <md:title>Giao trinh ve Internet va thu dien tu tieng viet</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+    <md:language>vi</md:language>
+    <md:uuid>ba625463-8d67-46fb-8b37-ca35ea987081</md:uuid>
+    <md:slug>giao-trinh-ve-internet-va-thu-dien-tu-tieng-viet</md:slug>
+  </metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>chuong I: tong quan ve Internet </md:title>
+      <col:content>
+        <col:module document="m17558">
+          <col:featured-links>
+            <cnxml:link-group type="example">
+              <cnxml:link url="http://cnx.org/Members/minhdn/Season_2009_final_Vietnamese.pdf/download">Season 2009</cnxml:link>
+            </cnxml:link-group>
+          </col:featured-links>
+        </col:module>
+        <col:subcollection>
+          <md:title>Cach su dung</md:title>
+          <col:content>
+            <col:module document="m30301"/>
+          </col:content>
+        </col:subcollection>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>chuong II</md:title>
+      <col:content>
+        <col:subcollection>
+          <md:title>muc 1  </md:title>
+          <col:content>
+            <col:module document="m29833"/>
+          </col:content>
+        </col:subcollection>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>
